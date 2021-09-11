@@ -1,0 +1,43 @@
+.page{
+    color: white;
+    padding: 0 1rem;
+    background: #f1f5f9;
+}
+
+.page__box{
+    min-height: 120px;
+    background: #1e293b;
+    margin:0 -1rem;
+    font-size: 36px;
+}
+.page__content{
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+
+}
+
+.mat-stepper-vertical {
+    margin-top: 8px;
+  }
+  
+  .mat-form-field {
+    margin-top: 16px;
+  }
+
+  .previous{
+      font-size: 17px;
+  }
+
+  .mat-card{
+      width: 50%;
+  }
+  .leave{
+      background-color: #2c3344;
+      color: #f1f5f9;
+      margin-top: 20px;
+      margin-left: 30px;
+  }

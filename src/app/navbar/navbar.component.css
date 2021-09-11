@@ -1,0 +1,42 @@
+.image{
+    height:90px;
+    padding-left:50px
+}
+.mat-icon {
+    vertical-align: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.mat-divider{
+    border-top-width: 1px;
+    border-color: white;
+}
+.mat-list-item{
+    color:#94a3b8!important;
+    font-size: 1rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+    }
+    
+    
+    .mat-list-item-content:hover{
+        background:#586175 ;
+    }
+    .mat-list-item-content{
+        border-radius: 5px;
+        margin:0 8px;
+    }
+    .mat-list-item-content:hover{
+        background: #2c3344!important;
+    }
+
+    .list-item-active{
+        color:#f2f5f7;
+    }
+    
+    .py-4 {
+        padding-top: 1.5rem!important;
+        padding-bottom: 1.5rem!important;
+    }
+    

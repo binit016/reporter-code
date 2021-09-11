@@ -1,0 +1,34 @@
+
+<mat-form-field appearance="fill" class="col-md-12">
+    <mat-label>What did you complete Yestarday </mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="col-md-12">
+    <mat-label>What do you commited to today</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="col-md-12">
+    <mat-label>When do you think you'll be done with that?</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="col-md-12 ">
+    <mat-label>Any blockers</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+
+  <div class="col-md-12 col-sm-12 mt-5">
+    <div class="col-sm-12">
+        <button mat-raised-button class="add" (click) = "onSubmit()" [value]="" >Submit</button>
+
+      <button
+      mat-raised-button 
+        mat-dialog-close
+      >
+        Close
+      </button>
+      
+    </div>
+  </div>

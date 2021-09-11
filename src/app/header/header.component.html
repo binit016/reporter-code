@@ -1,0 +1,20 @@
+<mat-toolbar>
+    <mat-toolbar-row class="justify-content-between">
+        <button mat-icon-button (click)="toggleSidebar()"><mat-icon>menu</mat-icon></button>
+        <div class="row mr-2 ml-auto">
+            <ul>
+                <li>
+                    <button mat-button  class="user mt-2 d-flex align-item-center"> 
+                       
+                       <button routerLink="/login" routerLinkActive="active"> <mat-icon class="user-image-icon ml-1">
+                            exit_to_app
+                        </mat-icon></button>
+                    </button>
+                    <!-- <mat-menu #menu="matMenu">
+                        <button><mat-icon>exit_to_app</mat-icon>Logout</button>
+                    </mat-menu> -->
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,54 @@
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+          <h3>Date :</h3>
+          </div>
+          <div class="col-md-8">
+            <mat-form-field appearance="fill">
+                <mat-date-range-input [rangePicker]="picker">
+                  <input matStartDate placeholder="Start date">
+                  <input matEndDate placeholder="End date">
+                </mat-date-range-input>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-date-range-picker #picker></mat-date-range-picker>
+              </mat-form-field>
+          </div>
+      
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+        <h3>Reason :</h3>
+    </div>
+        <div class="col-md-8">
+            <form class="example-form">
+                
+                <mat-form-field class="example-full-width" appearance="fill">
+                  <textarea matInput placeholder="Reason"></textarea>
+                </mat-form-field>
+              </form>
+        </div>
+    
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Leave :</h3>
+        </div>
+            <div class="col-md-8">
+                <mat-form-field appearance="fill">
+                    <mat-select>
+                      <mat-option *ngFor="let leave of leaves" [value]="leave.value">
+                        {{leave.viewValue}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </div>
+        
+        </div>
+        <button mat-raised-button  class="leave" >Apply Leave</button> 
+
+        
+
+    
+
+</div>

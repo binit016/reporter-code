@@ -1,0 +1,47 @@
+.page{
+    color: white;
+    padding: 0 1rem;
+    background: #f1f5f9;
+}
+
+.page__box{
+    min-height: 120px;
+    background: #1e293b;
+    margin:0 -1rem;
+    font-size: 36px;
+}
+.page__content{
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+
+}
+
+table {
+    width: 100%;
+  }
+
+  .delete-icon{
+      padding-left: 40px;
+      cursor: pointer;
+  }
+  .edit-icon{
+      cursor: pointer;
+  }
+
+  .href {
+    cursor: pointer;
+    color: #007bff;
+  }
+    .href:hover {
+        text-decoration: underline;
+    }
+
+    
+.addcompany:hover{
+     color: white;
+     background-color: #1e293b;
+}

@@ -1,0 +1,63 @@
+<div class="container-fluid page">
+  <div class="page__box p-3 mt-2">Apply Leave</div>
+  <div class="page__content shadow p-3 position-relative">
+      <div class="page__content-data  ">
+          
+          
+       
+        <mat-stepper orientation="vertical" [linear]="isLinear" #stepper>
+          <mat-step >
+            <form >
+              <ng-template matStepLabel>Previous Leave</ng-template>
+              <mat-card><p class="previous"><b>Previous Leave Date :</b><mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Choose a date</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matSuffix [for]="picker">
+                  <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+                </mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field> </p>
+                <p class="previous"> <b>Reason : </b>Sick Leave</p>
+              <!-- <div>
+                <button mat-button matStepperNext>Next</button>
+              </div> -->
+            </mat-card>
+            </form>
+          </mat-step>
+          <mat-step >
+            <form >
+              <ng-template matStepLabel>Current Leave Info</ng-template>
+              <mat-card >
+                <p class="previous"> <b>Earned Leave : </b>6 days</p>
+                <p class="previous"> <b>Sick Leave : </b>5 Days</p>
+                <p class="previous"> <b>Casual Leave : </b>4 Days</p>
+
+              </mat-card>
+              
+              
+            </form>
+          </mat-step>
+          <!-- <mat-step>
+            <ng-template matStepLabel>Apply Leave</ng-template>
+            
+            <form class="example-form col-md-6" >
+              <mat-form-field class="" appearance="fill">
+                <mat-label>Leave a comment</mat-label>
+                <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+              </mat-form-field>
+            </form>
+            
+            <div>
+              <button mat-raised-button matStepperPrevious>Submit</button>
+            </div>
+          </mat-step> -->
+          
+        </mat-stepper>
+        
+           <button mat-raised-button  class="leave" (click)="applyLeave()">Apply Leave</button> 
+            
+          
+          
+      </div>
+     </div>
+</div>

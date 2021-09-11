@@ -1,0 +1,23 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .mat-option{
+      width: 100%;
+  }
+  h3{
+      font-weight: bold;
+  }
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 68.666667%;
+}
+  .leave{
+      margin-left: 120px;
+      margin-top: 10px;
+  }
